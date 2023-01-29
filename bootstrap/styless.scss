@@ -1,0 +1,26 @@
+$color: rgb(0, 0, 0);
+
+body{
+    background: $color;
+}
+
+button:hover{
+    border: 3px solid red;
+    color:rgb(255, 0, 0);
+}
+
+div#container > p{
+    border: 1px solid rgb(0, 242, 255);
+}
+
+div + p{
+color: rgb(255, 0, 170);
+}
+
+div ~ p{
+    background-color: blue;;
+}
+
+div[class*="collapse navbar-collapse"]{
+    background: rgb(51, 255, 0);
+}
